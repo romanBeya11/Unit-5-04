@@ -1,0 +1,108 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{349, 53}, {108, 39}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "enter_marks_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Enter Mark",
+          "uuid" : "B8EB4824-0D4F-44CF-AA58-5DB92B6A5E9A",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "enter_marks_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{106, 53}, {235, 39}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "FAE2F163-68F9-4750-A23F-F479E8F399A8",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "user_marks_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{144, 110}, {156, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "display_mark_average",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Average",
+          "uuid" : "55E463C2-5255-4305-9973-723B440736A1",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "mark_average_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{64, 169}, {340, 132}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "D97C66CC-237F-4550-A1E9-341E8B400A2F",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "output_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{123, 0}, {186, 45}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "297A53DE-D28C-46EF-933D-013DE08B6A20",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter your marks",
+          "name" : "instructions_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
